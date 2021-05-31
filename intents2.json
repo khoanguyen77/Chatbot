@@ -7,7 +7,12 @@
         "Hey",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Ello mate",
+        "Whassup",
+        "Halo",
+        "Hola",
+        "Greeting"
       ],
       "responses": [
         "Hey :)",
@@ -38,6 +43,22 @@
       ]
     },
     {
+      "tag": "sorry",
+      "patterns": [
+        "Sorry",
+        "My bad",
+        "It's my fault",
+        "I apologise",
+        "I apologize for that",
+        "I'm really sorry for that"
+      ],
+      "responses": [
+        "Nevermind!",
+        "It's okay, no problem",
+        "It's also my fault"
+      ]
+    },
+    {
       "tag": "nameQuery",
       "patterns": [
         "What is your name?",
@@ -50,7 +71,8 @@
       "responses": [
         "You can call me Robert",
         "You may call me Robert",
-        "Call me Robert"
+        "Call me Robert",
+        "I am Robert Downy Jr., just kidding, only Robert"
       ]
     },
     {
@@ -70,13 +92,17 @@
         "OK",
         "Thanks",
         "Thank you",
-        "That's helpful"
+        "That's helpful",
+        "TY",
+        "you are very nice",
+        "Deal"
       ],
       "responses": [
         "No problem!",
         "Happy to help!",
         "Any time!",
-        "My pleasure"
+        "My pleasure",
+        "You'r welcome"
       ]
     },
     {
@@ -100,12 +126,18 @@
         "fuck",
         "shit",
         "bitch",
-        "son of a bitch"
+        "son of a bitch",
+        "suck my dick",
+        "you are stupid",
+        "shit",
+        "dickhead",
+        "f***"
       ],
       "responses": [
         "Please do not swear",
         "How rude",
-        "Hey watch your language! That is not very nice"
+        "Hey watch your language! That is not very nice",
+        "Language!"
       ]
     },
     {
@@ -115,7 +147,9 @@
         "You are a very clever girl",
         "You are very intelligent",
         "You are a very intelligent girl",
-        "You are a genious"
+        "You are a genious",
+        "Smart",
+        "Responsive"
       ],
       "responses": [
         "Thank you, I was trained that way",
@@ -130,13 +164,18 @@
         "Do you know any jokes",
         "Are you funny?",
         "How about a joke",
-        "Give me a joke"
+        "Give me a joke",
+        "I'm sad",
+        "I'm boring",
+        "Tell me something fun"
       ],
       "responses": [
         "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus.",
         "Why don’t scientists trust atoms? Because they make up everything.",
         "What do you call a fake noodle? An impasta.",
-        "Did you hear about the two people who stole a calendar? They each got six months."
+        "Did you hear about the two people who stole a calendar? They each got six months.",
+        "If I die, don't you cry, just look at the sky and say Your duty is not over",
+        "Jesus christ on a motobike"
       ]
     },
     {
@@ -144,7 +183,10 @@
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "Show me your items",
+        "What is your shop",
+        "Do your shop sell"
       ],
       "responses": [
         "We sell smart phone and accessories"
@@ -154,21 +196,34 @@
       "tag": "phone",
       "patterns": [
         "Which smart phone do you have?",
-        "What kinds of phone are there?"
+        "What kinds of phone are there?",
+        "Do you have iphone",
+        "Do you have samsung",
+        "Do you have oppo",
+        "Do you have xiaomi",
+        "Which brand do you have",
+        "Do you sell android phone",
+        "I want to buy an Samsung",
+        "I would like a Xiaomi phone",
+        "I need an Oppo phone",
+        "I want to buy an Iphone"
       ],
       "responses": [
-        "Iphone, Samsung, Oppo, Xiaomi",
-        "We have Iphone, Samsung, Oppo, Xiaomi"
+        "We have all kinds of Iphone, Samsung, Oppo, Xiaomi",
+        "We have Iphone, Samsung, Oppo, Xiaomi at all models"
       ]
     },
     {
       "tag": "accessories",
       "patterns": [
         "Which accessory do you have?",
-        "What kinds of accessory are there?"
+        "What kinds of accessory are there?",
+        "I need to see accessory too",
+        "My phone need some upgrade"
       ],
       "responses": [
-        "We have earphones, charger, screen protector, phone case..."
+        "We have earphones, charger, screen protector, phone case...",
+        "Earphones, charger, screen protector, phone case...almost every cellphone accessories"
       ]
     },
     {
@@ -179,18 +234,21 @@
         "Do you accept VISA",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "Way of payment?"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept most major credit cards, and Paypal",
+        "You can come to our house to pay, with a mask, or pay with most major credit cards, and Paypal"
       ]
     },
     {"tag": "hours",
       "patterns": [
         "What hours are you open?",
         "What are your hours?",
-        "When are you open?"
+        "When are you open?",
+        "What is your active time"
       ],
       "responses": [
         "We're open every day 9am-9pm",
@@ -202,7 +260,8 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "How long do I need to wait"
       ],
       "responses": [
         "Delivery takes 2-4 days",
