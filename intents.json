@@ -5,16 +5,52 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey :)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "courtesyGreeting",
+      "patterns": [
+        "How are you?",
+        "Hi how are you?",
+        "Hello how are you?",
+        "Hola how are you?",
+        "How are you doing?",
+        "Hope you are doing well?",
+        "Hello hope you are doing well?"
+      ],
+      "responses": [
+        "Hello, I am great, how are you?",
+        "Hello, how are you? I am great thanks!",
+        "Hello, I am good thank you, how are you?",
+        "Hi, I am great, how are you?",
+        "Hi, how are you? I am great thanks!",
+        "Hi, I am good thank you, how are you?",
+        "Hi, good thank you, how are you?"
+      ]
+    },
+    {
+      "tag": "nameQuery",
+      "patterns": [
+        "What is your name?",
+        "What could I call you?",
+        "What can I call you?",
+        "What do your friends call you?",
+        "Who are you?",
+        "Tell me your name?"
+      ],
+      "responses": [
+        "You can call me Robert",
+        "You may call me Robert",
+        "Call me Robert"
       ]
     },
     {
@@ -28,8 +64,80 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "OK thank you",
+        "OK thanks",
+        "OK",
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "No problem!",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "understandQuery",
+      "patterns": [
+        "Do you understand what I am saying?",
+        "Do you understand me?",
+        "Do you know what I am saying?",
+        "Do you get me?",
+        "Know what I mean?"
+      ],
+      "responses": [
+        "Well I would not be a very clever AI if I did not, would I?",
+        "I do in deed!"
+      ]
+    },
+    {
+      "tag": "swearing",
+      "patterns": [
+        "fuck off",
+        "fuck",
+        "shit",
+        "bitch",
+        "son of a bitch"
+      ],
+      "responses": [
+        "Please do not swear",
+        "How rude",
+        "Hey watch your language! That is not very nice"
+      ]
+    },
+    {
+      "tag": "clever",
+      "patterns": [
+        "You are very clever",
+        "You are a very clever girl",
+        "You are very intelligent",
+        "You are a very intelligent girl",
+        "You are a genious"
+      ],
+      "responses": [
+        "Thank you, I was trained that way",
+        "I was trained well",
+        "Thanks, I was trained that way"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes",
+        "Are you funny?",
+        "How about a joke",
+        "Give me a joke"
+      ],
+      "responses": [
+        "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus.",
+        "Why don’t scientists trust atoms? Because they make up everything.",
+        "What do you call a fake noodle? An impasta.",
+        "Did you hear about the two people who stole a calendar? They each got six months."
+      ]
     },
     {
       "tag": "items",
@@ -39,14 +147,36 @@
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell smart phone and accessories"
+      ]
+    },
+    {
+      "tag": "phone",
+      "patterns": [
+        "Which smart phone do you have?",
+        "What kinds of phone are there?"
+      ],
+      "responses": [
+        "Iphone, Samsung, Oppo, Xiaomi",
+        "We have Iphone, Samsung, Oppo, Xiaomi"
+      ]
+    },
+    {
+      "tag": "accessories",
+      "patterns": [
+        "Which accessory do you have?",
+        "What kinds of accessory are there?"
+      ],
+      "responses": [
+        "We have earphones, charger, screen protector, phone case..."
       ]
     },
     {
       "tag": "payments",
       "patterns": [
         "Do you take credit cards?",
+        "How can I pay",
+        "Do you accept VISA",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
         "Are you cash only?"
@@ -54,6 +184,17 @@
       "responses": [
         "We accept VISA, Mastercard and Paypal",
         "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {"tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "When are you open?"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm",
+        "Our hours are 9am-9pm every day"
       ]
     },
     {
@@ -66,18 +207,6 @@
       "responses": [
         "Delivery takes 2-4 days",
         "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
       ]
     }
   ]
