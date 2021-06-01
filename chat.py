@@ -1,6 +1,5 @@
 import random
 import json
-
 import torch
 
 from model import NeuralNet
@@ -28,7 +27,6 @@ model.eval()
 bot_name = "Bot"
 print("Let's chat! (type 'quit' to exit)")
 while True:
-    # sentence = "do you use credit cards?"
     sentence = input("You: ")
     if sentence == "quit":
         break
@@ -45,7 +43,7 @@ while True:
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.5:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
